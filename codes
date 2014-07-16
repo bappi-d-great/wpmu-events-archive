@@ -6,5 +6,5 @@ function __all_events_start() {
 }
 
 function __all_events_end() {
-    __all_events_end
+    return date('Y', PHP_INT_MAX) . '-01-01 23:59';
 }
