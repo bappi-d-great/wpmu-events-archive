@@ -1,0 +1,10 @@
+add_filter( 'eab-collection-upcoming-start_timestamp', '__all_events_start' ); 
+add_filter( 'eab-collection-upcoming-end_timestamp', '__all_events_end' );
+
+function __all_events_start() {
+    return date('Y-m-d') . ' 00:01';
+}
+
+function __all_events_end() {
+    __all_events_end
+}
